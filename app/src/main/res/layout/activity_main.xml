@@ -24,7 +24,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:padding="40dp"
             android:numColumns="3"
             android:columnWidth="30dp"
@@ -32,6 +31,14 @@
             android:horizontalSpacing="40dp"
             android:stretchMode="columnWidth"
             android:gravity="center"/>
+
+        <include
+            app:layout_constraintTop_toBottomOf="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/include_arrow">
+
+        </include>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
