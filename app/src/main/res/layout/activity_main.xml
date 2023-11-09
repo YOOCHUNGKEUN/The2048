@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
@@ -16,30 +15,30 @@
     -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".activity.MainActivity">
+        android:layout_height="match_parent">
 
-        <GridView
-            android:id="@+id/gridView"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent"
-            android:padding="40dp"
-            android:numColumns="3"
-            android:columnWidth="30dp"
-            android:verticalSpacing="10dp"
-            android:horizontalSpacing="40dp"
-            android:stretchMode="columnWidth"
-            android:gravity="center"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <include
-            app:layout_constraintTop_toBottomOf="@+id/gridView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/include_arrow">
+            <include
+                layout="@layout/include_number_body"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="0.3"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        </include>
+            <include
+                layout="@layout/include_arrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:layout_constraintTop_toBottomOf="@+id/gridView" />
 
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -2,4 +2,72 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="color_translate">#00000000</color>
+    <color name="color_F6F6F6">#F6F6F6</color>
+    <color name="color_AEAEAE">#AEAEAE</color>
+    <color name="color_F0F0F0">#F0F0F0</color>
+
+    <color name="color_E3E2E2">#E3E2E2</color>
+
+    <color name="color_000000">#000000</color>
+    <color name="color_56000000">#56000000</color>
+
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_FA8428">#FA8428</color>
+    <color name="color_707070">#707070</color>
+    <color name="color_DD0000">#DD0000</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_D9D9D9">#D9D9D9</color>
+    <color name="color_F7C299">#F7C299</color>
+    <color name="color_F9F9F9">#F9F9F9</color>
+    <color name="color_F89A2D">#F89A2D</color>
+    <color name="color_F97C26">#F97C26</color>
+    <color name="color_FF9900">#FF9900</color>
+    <color name="color_FFC635">#FFC635</color>
+    <color name="color_B74CFF">#B74CFF</color>
+    <color name="color_5393FF">#5393FF</color>
+    <color name="color_1A82FF">#1A82FF</color>
+    <color name="color_FF9C9C">#FF9C9C</color>
+    <color name="color_3FD1D1">#3FD1D1</color>
+    <color name="color_D5F0FF">#D5F0FF</color>
+    <color name="color_FEE8D7">#FEE8D7</color>
+    <color name="color_D5FFF7">#D5FFF7</color>
+    <color name="color_FFEEEE">#FFEEEE</color>
+    <color name="color_00BA00">#00BA00</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_DEDEDE">#DEDEDE</color>
+    <color name="color_B44DFE">#B44DFE</color>
+    <color name="color_1FC6D0">#1FC6D0</color>
+    <color name="color_000AFF">#000AFF</color>
+
+    <color name="color_E6C4FE">#E6C4FE</color>
+    <color name="color_CB83FE">#CB83FE</color>
+    <color name="color_FFF2B0">#fff2b0</color>
+    <color name="color_42B44DFE">#42B44DFE</color>
+    <color name="color_E2C4F8">#E2C4F8</color>
+    <color name="color_D9A5FE">#D9A5FE</color>
+
+    <color name="color_FFF1C7">#FFF1C7</color>
+    <color name="color_FFFCF1">#FFFCF1</color>
+    <color name="color_A4A093">#A4A093</color>
+    <color name="color_FFCF23">#FFCF23</color>
+    <color name="color_F1E4B6">#F1E4B6</color>
+
+    <color name="color_98E4FF">#98E4FF</color>
+    <color name="color_48C6F3">#48C6F3</color>
+    <color name="color_FF9DCB">#FF9DCB</color>
+    <color name="color_F64E9E">#F64E9E</color>
+
+    <color name="color_1C86E2">#1C86E2</color>
+    <color name="color_D90960">#D90960</color>
+    <color name="color_A6000000">#A6000000</color>
+    <color name="color_E5D4A0">#E5D4A0</color>
+    <color name="color_FFEDAE">#FFEDAE</color>
+    <color name="color_FFB423">#FFB423</color>
+    <color name="color_FFEC45">#FFEC45</color>
+
+
+
+
 </resources>
